@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Expires" content="Mon, 26 Jul 1997 05:00:00 GMT">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style1.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/queries1.css">
+    <link href="https://unpkg.com/ionicons@4.2.0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+    <script src="assets/js/script.js"></script>
+    <title>The Mill Canton</title>
+  </head>
+  <body>
+    <div id="main">
+      <header>
+        <!-- Logos -->
+        <div class="hero">
+          <img src="assets/img/MILL_Logo_White.png" alt="mill-logo" class="mill-logo">
+          <img src="assets/img/MILL_BLDG_White-01.png" alt="mill-logo" class="mill-building">
+          <img src="assets/img/coming_soon.png" alt="coming-soon" class="coming-soon">
+        </div>
+      </header>
+
+      <!-- Bio Paragraph -->
+      <section id="bio-paragraph">
+        <div class="row">
+          <p class="long-copy">
+            THE MILL ON ETOWAH is an adaptive re-use development in downtown Canton, GA.
+            The former denim factory now features a brewery, restaurants, a co-working environment and more.
+            The Mill is uniquely situated on the Etowah River and provides a natural amenity to it’s tenants and guests.
+          </p>
+        </div>
+      </section>
+
+      <!-- Youtube Video -->
+      <section id="video">
+        <div class="row" id="video-parent">
+          <div id="video-con">
+            <div class="video-child">
+              <iframe src="https://www.youtube.com/embed/hFBoJG2r_h0?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen id="hide-iframe"></iframe>
+            </div>
+          </div>
+          <div id="video-con">
+            <div class="video-child">
+              <iframe src="https://www.youtube.com/embed/POjjbpIKRR8?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+        <!--Use this, dislay none, then display at 850px media query-->
+        <div class="mobile-vid-parent" id="first-mobile-vid">
+          <iframe src="https://www.youtube.com/embed/hFBoJG2r_h0?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen id="hide-iframe"></iframe>
+        </div>
+        <div class="mobile-vid-parent">
+            <iframe src="https://www.youtube.com/embed/POjjbpIKRR8?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </section>
+
+      <!-- History -->
+      <section id="history">
+        <div class="row">
+          <h1>HISTORY</h1>
+          <div id="paragraph-columns">
+            <p id="formerly">
+              Formerly known as Mill #1, the factory was built in 1900 and actively produced denim until 1981.
+              Mill #1 along with it’s sister factory, Mill #2 (collectively Canton Cotton Mills) are a vital part of
+              the history of Canton and were the main source of employment for the residents. The factories produced
+              valuable denim cloth that was known for it’s durability. They consistently improved manufacturing to create
+              a top of the line product that was used in World War II. Production began to decrease in the 1970’s and eventually
+              the Canton Cotton Mills were closed in 1981.
+            </p>
+            <p id="mill-1">
+              Mill #1 was founded and financed by Robert Tyre Jones and his family re-purposed the building to serve as warehouse
+              and production space for local tenants for the next three decades. In 2018, the property was purchased by a group of
+              local developers with intent to revitalize the structure and honor the history of Canton. The vision is to activate the
+              riverfront with signature restaurants, unique retail spaces and creative office and event space.
+            </p>
+          </div>
+        </div>
+      </section>
+<!---->
+      <!--Color renderings slideshow-->
+      <section id="slideshow">
+        <div class="wrap row" id="slideshow-con" scroll="no">
+            <ion-icon name="ios-arrow-back" class="arrow" id="arrow-left"></ion-icon>
+          <div id="slider">
+            <div class="slide slide1">
+              <div class="slide-content"></div>
+            </div>
+            <div class="slide slide2">
+              <div class="slide-content"></div>
+            </div>
+            <div class="slide slide3">
+              <div class="slide-content"></div></div>
+          </div>
+          <ion-icon name="ios-arrow-forward" class="arrow" id="arrow-right"></ion-icon>
+        </div>
+      </section>
+
+      <!-- Tenants Coming Soon -->
+      <section id="tenants">
+        <div class="row">
+          <h1>TENANT ANNOUCEMENT COMING SOON</h1>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        <h2>Interested in leasing at The Mill? Get in touch now!</h2>
+        <div class="row footer-contact">
+          <div class="footer-address">
+            <i class="icon ion-md-home"></i>
+            <a href="http://maps.apple.com/?q=34.23466620000001,-84.49360630000001"><p>141 Railroad Street,<br/>
+              Canton, GA 30114</p></a>
+          </div>
+          <div class="footer-email">
+            <i class="icon ion-md-send"></i>
+            <a href="mailto:info@etowahmill.com"><p>info@etowahmill.com</p></a>
+          </div>
+        </div>
+        <div class="footer-line"></div>
+        <!--<div class="footer-social">
+          <a href="#"><i class="icon ion-logo-facebook"></i></a>
+          <a href="#"><i class="icon ion-logo-instagram"></i></a>
+          <a href="#"><i class="icon ion-logo-twitter"></i></a>
+        </div>-->
+      </footer>
+    </div>
+    <script src="https://unpkg.com/ionicons@4.3.0/dist/ionicons.js"></script>
+  </body>
+</html>

@@ -1,0 +1,283 @@
+@media only screen and (max-width: 1280px) {
+  #history #formerly {
+    margin-left: 7%;
+  }
+  #history #mill-1 {
+    margin-right: 7%;
+  }
+  #video-parent {
+    width: 1000px;
+    height: 350px;
+  }
+  #tenants .row h1 {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+@media only screen and (max-width: 1120px) {
+  .mill-logo {
+    height: 190px;
+  }
+  .mill-building {
+    height: 190px;
+  }
+  .coming-soon {
+    height: 40px;
+  }
+  #tenants .row h1 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #slideshow .row {
+    width: 1000px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #video-parent {
+    width: 850px;
+    height: 280px;
+  }
+  #slideshow .row,
+  .wrap,
+  .slide-content {
+    width: 800px;
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  #paragraph-columns {
+    grid-template-columns: none;
+  }
+  #history #paragraph-columns #formerly,
+  #history #paragraph-columns #mill-1 {
+    padding: 0;
+    margin: 10px 9%;;
+  }
+  footer .footer-address,
+  footer .footer-email {
+    float: none;
+    display: table;
+  }
+
+  footer .footer-address {
+    margin-bottom: 20px;
+  }
+
+  footer .footer-email p {
+    padding-left: 82px;
+  }
+
+  footer .footer-address .ion-md-home {
+    margin-right: 13px;
+  }
+  footer .footer-social {
+    margin-bottom: 100px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .long-copy {
+    font-size: 85%;
+    margin: 0 auto;
+    padding: 0 30px;
+    width: 100%;
+  }
+  .mill-logo {
+    height: 180px;
+  }
+  .mill-building {
+    height: 180px;
+  }
+  .coming-soon {
+    height: 37px;
+  }
+  #video-parent {
+    display: none;
+  }
+  
+  #video iframe {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 0;
+  }
+  .mobile-vid-parent {
+    display: block;
+  }
+  #slideshow,
+  #slideshow .row,
+  #slideshow .wrap,
+  #slider,
+  #slide-content {
+    width: 100%;
+  }
+  #paragraph-columns p {
+    font-size: 70%;
+    padding: 0;
+    margin: 0;
+  }
+  #tenants .row h1 {
+    border: none;
+    margin-top: -20px;
+    font-size: 180%;
+  }
+  footer .row {
+    margin: 0;
+    padding: 0;
+    width: auto;
+  }
+  footer {
+    height: 85vh;
+  }
+  footer h2 {
+    font-size: 110%;
+    padding: 0 5%;
+  }
+  footer .footer-contact i,
+  footer .footer-social i {
+    font-size: 40px;
+  }
+  .footer-address p {
+    padding-left: 85px;
+    font-size: 80%;
+  }
+  footer .footer-email p {
+    padding-top: 5px;
+    padding-left: 95px;
+    font-size: 80%
+  }
+}
+@media only screen and (max-width: 700px) {
+  #slideshow .row,
+  .wrap,
+  .slide-content {
+    height: 350px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .mill-logo {
+    height: 150px;
+  }
+  .mill-building {
+    height: 150px;
+  }
+  .coming-soon {
+    height: 30px;
+  }
+  #slideshow .row,
+  .wrap,
+  .slide-content {
+    height: 300px;
+  }
+  #arrow-left,
+  #arrow-right {
+    font-size: 70px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  section {
+    padding: 50px 0px;
+  }
+  .long-copy {
+    line-height: 1.7rem;
+  }
+  #video {
+    padding: 0;
+  }
+  #slideshow {
+    padding: 0;
+  }
+  #paragraph-columns p {
+    line-height: 1.7rem;
+  }
+  #history #paragraph-columns #formerly,
+  #history #paragraph-columns #mill-1 {
+    padding: 0;
+    margin: 0px 5%;;
+  }
+  #slideshow .row,
+  .wrap,
+  .slide-content {
+    height: 275px;
+  }
+  #tenants .row h1 {
+    font-size: 120%;
+    padding-bottom: 0px;
+  }
+  #tenants {
+    height: auto;
+  }
+  footer {
+    height: 450px;
+  }
+  .footer-line {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .mill-logo {
+    height: 150px;
+  }
+  .mill-building {
+    height: 150px;
+  }
+  .coming-soon {
+    height: 30px;
+  }
+  #paragraph-columns p {
+    line-height: 1.5rem;
+  }
+  #slideshow .row,
+  .wrap,
+  .slide-content {
+    height: 220px;
+  }
+  .footer-address p {
+    padding-left: 40px;
+  }
+  body .footer-email p {
+    padding-left: 60px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .mill-logo {
+    top: 30%;
+  }
+  .mill-building {
+    top: 60%;
+  }
+  .coming-soon {
+    top: 80%;
+  }
+  .long-copy {
+    font-size: 75%;
+    margin: 0 auto;
+    padding: 0 5%;
+    line-height: 1.5rem;
+  }
+  #tenants .row h1 {
+    font-size: 150%;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    padding: 0;
+  }
+  #slideshow .row,
+  .wrap,
+  .slide-content {
+    height: 200px;
+  }
+  footer {
+    height: 450px;
+  }
+}
